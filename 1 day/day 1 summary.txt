@@ -1,0 +1,63 @@
+in the day one we learn about how to write javascript we can write javascript inside html file using <script> code inside it </script>
+and write this code 
+var b = 17;
+        const a = 10;
+        d = a - b;
+        console.log(d);
+        console.log(10 * 10);
+        console.log("what is your age?");
+        console.log("my age is 27");
+var b = 17; - Here, you're declaring a variable b and assigning it the value 17. The var keyword is used to declare a variable in JavaScript.
+
+const a = 10; - Here, you're declaring a constant variable a and assigning it the value 10. The const keyword is used to declare a constant in JavaScript. Constants cannot be reassigned.
+
+d = a - b; - You're creating a variable d and assigning it the result of subtracting the value of b from the value of a (i.e., 10 - 17). The result, in this case, would be -7.
+
+console.log(d); - This line prints the value of d to the console. In this case, it would print -7.
+
+console.log(10 * 10); - This line calculates the result of 10 * 10 (which is 100) and prints it to the console.
+
+console.log("what is your age?"); - This line prints the string "what is your age?" to the console.
+
+console.log("my age is 27"); - This line prints the string "my age is 27" to the console.
+
+So, when you run this code, the output in the console would be:
+-7
+100
+what is your age?
+my age is 27
+
+
+ but to write javascript alone as a file we write first tag and give file name and extension with src element like this  <script src="script.js"> </script> here the file name is script and link is .js and after this we write a code in new file 
+ var a = "faizan";
+var b = " kamboh";
+var c;
+c = a + b;
+console.log(c);
+var d = document.getElementById("demo");
+d.innerHTML = "faizan"
+
+
+
+ var a = "faizan"; - Here, you're declaring a variable a and assigning it the string value "faizan". In JavaScript, you can use the var keyword to declare variables.
+
+var b = " kamboh"; - Similarly, you're declaring a variable b and assigning it the string value " kamboh".
+
+var c; - This line declares a variable c without assigning it a value initially. It's left undefined at this point.
+
+c = a + b; - Here, you're concatenating the values of variables a and b (i.e., "faizan" and " kamboh"), and storing the result in the variable c.
+
+console.log(c); - This line prints the concatenated string stored in variable c to the console. The output would be "faizan kamboh".
+
+var d = document.getElementById("demo"); - This line is attempting to select an HTML element with the id "demo" and store it in the variable d. This assumes that there is an HTML element with the id "demo" in the document.
+
+d.innerHTML = "faizan"; - If the element with the id "demo" exists, this line sets its inner HTML content to the string "faizan". In this case, it's updating the content of the HTML element with the id "demo" to be "faizan".
+
+Please note that the line var d = document.getElementById("demo"); is typically used in the context of a web page where you have an HTML element with the id "demo". If you're running this code in an environment that doesn't have a web page (like a Node.js environment), you might encounter an error or unexpected behavior.
+
+
+
+
+and also i forget that <p id="demo"></p> when you see output on screen the value will be faizan because of this var d = document.getElementById("demo");
+d.innerHTML = "faizan"
+it is same as <p>faizan</p> 
