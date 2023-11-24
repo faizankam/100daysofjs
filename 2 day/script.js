@@ -53,3 +53,4 @@ const fai = {
     firstName: "John",
     lastName: "Doe"
 };   
+console.log(fai);
