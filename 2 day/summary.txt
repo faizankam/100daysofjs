@@ -1,0 +1,27 @@
+HTML Structure:
+
+Basic HTML5 document structure.
+Includes a <head> section with metadata and a link to an external CSS file (style.css).
+The <body> section contains a script tag linking to an external JavaScript file (script.js).
+Content:
+
+Center-aligned content using the <center> tag (deprecated in HTML5, but still functional).
+Heading (<h1>) with two links to W3Schools pages on JavaScript operators and assignments.
+A button (<button>) with an onclick attribute triggering a JavaScript function to display the current date and time.
+Two paragraphs (<p>) with the ids "demo," "de," and "dem" that are used to display content dynamically using JavaScript.
+JavaScript:
+
+Inline JavaScript within <script> tags in the body.
+Two variables (faizan and ssaf) demonstrating string concatenation and type coercion, with results displayed in paragraphs.
+Various JavaScript operations like exponentiation (**), modulo (%), and increment (++).
+Bitwise left shift operation (<<=) explanation and example.
+Declaration of variables and objects with different data types (numbers, strings, booleans, objects, arrays, and dates).
+A console.log statement at the end logging an object (fai).
+CSS:
+
+Styling for a button with hover effects.
+Styling for links within an <h1> element.
+New JavaScript Code (Without Console.log of Data Types):
+
+Declaration of variables with different data types (numbers, strings, booleans, objects, arrays, and dates).
+An object (fai) is defined and logged to the console.
