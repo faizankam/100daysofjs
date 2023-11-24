@@ -1,0 +1,15 @@
+.butt {
+    background-color: rgb(124, 124, 124);
+    color: aliceblue;
+    border: 2px solid #555;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.butt:hover {
+    background-color: #555;
+    color: white;
+}
