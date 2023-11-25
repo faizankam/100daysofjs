@@ -1,0 +1,36 @@
+This code is an HTML document that includes a linked stylesheet (style.css) and a JavaScript file (script.js). The HTML file has a simple structure with a head containing meta information and a title, and a body with three div elements (de, dd) and a paragraph (demo). The JavaScript code in script.js performs some basic operations and interacts with the HTML elements.
+
+Here's a breakdown of the JavaScript code:
+
+Function a:
+
+Takes two parameters (p1 and p2).
+Returns the product of p1 and p2.
+Variable resul:
+
+Calls the function a with arguments 2 and 3 and stores the result in resul.
+Sets the inner HTML of the element with the id "de" to the value of resul.
+Function s:
+
+Similar to function a, takes two parameters (p1 and p2).
+Returns the product of p1 and p2.
+Variable res:
+
+Calls the function s with arguments 3 and 3 and stores the result in res.
+Sets the inner HTML of the element with the id "dd" to the value of res.
+Object pers:
+
+Defines an object with properties firstName, lastName, age, and eyeColor.
+Updating HTML content:
+
+Sets the inner HTML of the element with the id "demo" to a string concatenation of some properties of the pers object.
+Variable a:
+
+Declares a variable a with the value 17.
+Object person:
+
+Defines an object with properties firstName, lastName, id, and a method fullName that returns the concatenation of firstName and lastName.
+Console log:
+
+Outputs the person object to the console.
+In summary, the code calculates the product of two numbers using two different functions (a and s), updates the HTML content of two div elements (de and dd), displays some information from an object (pers), and defines and logs another object (person) to the console.
