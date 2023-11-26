@@ -1,0 +1,26 @@
+String Manipulation:
+
+The variable str is assigned the string "apple, banana, kiwi."
+The first five characters of str are displayed in an HTML element with the id "demo."
+Functions:
+
+myFunction: Replaces the word "wali" with "faizan" in a string and displays the result in an HTML element with the id "demo1."
+mysFunction: Converts the text content of an HTML element with the id "desmo" to uppercase.
+String Concatenation:
+
+Concatenates the strings "Hello" and "World!" with a space in between and displays the result in an HTML element with the id "de."
+User Interaction:
+
+Prompts the user to enter their name and logs the input to the console.
+Asks the user if they want to write their name on the page and writes it if they agree.
+Prompts the user to enter their age and displays an alert based on the age input.
+Conditional (Ternary) Operator:
+
+Compares the values of d and b and calculates the absolute difference, assigning it to the variable dad. The result is then logged to the console.
+Loop:
+
+A for loop iterates ten times, logging incremental values starting from dads to the console.
+HTML Document:
+
+Contains HTML markup with several paragraphs and buttons.
+Links to an external JavaScript file named "script.js" for the script execution.
