@@ -1,3 +1,4 @@
+//faulty calculator code
 let random = Math.random();
 console.log(random);
 
