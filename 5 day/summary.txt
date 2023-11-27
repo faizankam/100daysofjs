@@ -1,0 +1,7 @@
+This JavaScript code generates a random number using Math.random() and then prompts the user to enter two numbers and an operation. The entered numbers are converted to floating-point values. The code also defines an object obj that maps basic arithmetic operations to different ones.
+
+The program then checks if the randomly generated number is greater than 0.2. If true, it performs the operation entered by the user and displays the result using console.log and an alert dialog.
+
+If the random number is less than or equal to 0.2, it modifies the operation using the obj object and performs the updated operation, displaying the result in a similar manner.
+
+Note: The code uses eval() to evaluate the mathematical expression formed by the user's input, but using eval() can pose security risks, and it's generally recommended to avoid it. Additionally, the code doesn't handle division by zero or invalid input, so it may not be robust in all scenarios.
