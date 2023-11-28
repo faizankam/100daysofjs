@@ -8,4 +8,4 @@ The `anotherword` function returns one of the words "bros," "limited," or "hub."
 
 Finally, the `console.log` statement prints a business name by combining the results of calling these three functions. The output will be in the format "Business Name\n" followed by a randomly selected adjective, shop name, and another word.
 
-Note: The generated business name will vary each time the code 
+Note: The generated business name will vary each time the code is executed due to the random selection of words.
