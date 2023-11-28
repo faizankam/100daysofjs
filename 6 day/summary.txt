@@ -1,0 +1,10 @@
+The provided code defines three functions: `adjective`, `shopname`, and `anotherword`. Each function selects a random word from a predefined set based on a random index generated using `Math.random()`.
+
+The `adjective` function returns one of the words "crazy," "amazing," or "fire."
+
+The `shopname` function returns one of the words "engine," "food," or "garments."
+
+The `anotherword` function returns one of the words "bros," "limited," or "hub."
+
+Finally, the `console.log` statement prints a business name by combining the results of calling these three functions. The output will be in the format "Business Name\n" followed by a randomly selected adjective, shop name, and another word.
+
