@@ -21,4 +21,4 @@ The provided code is an HTML document that implements a basic Rock, Paper, Sciss
 - `determineWinner` compares player and computer choices to decide the game outcome.
 - `makeChoice` is called when a player clicks a button, updating the result display.
 
-This simple Rock, Paper, Scissors game allows users to make a choice, compares it to the 
+This simple Rock, Paper, Scissors game allows users to make a choice, compares it to the computer's choice, and displays the result on the webpage. The styling ensures a clean 
