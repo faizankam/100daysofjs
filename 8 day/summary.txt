@@ -1,0 +1,26 @@
+This HTML document serves as a basic webpage for a JavaScript program that calculates the factorial of a user-inputted number. Here's a summary:
+
+### HTML Structure:
+- `<!DOCTYPE html>`: Document type declaration for HTML5.
+- `<html lang="en">`: HTML root element with the language attribute set to English.
+- Head section:
+  - Meta tags for character set and viewport settings.
+  - `<title>`: Sets the title of the webpage to "day 8".
+
+### Body Content:
+- `<h1>`: Heading with emphasized text, stating "A webpage of a JavaScript program."
+- `<strong>`: Strong text emphasizing the purpose of the program, i.e., "calculate factorial."
+- `<h3>`: Subheading inviting the user to build the factorial calculator.
+- `<script src="script.js"></script>`: Links an external JavaScript file named "script.js."
+
+### JavaScript (script.js):
+- Prompts the user to input a number for which the factorial will be calculated.
+- Parses the input to ensure it's treated as a number.
+- Initializes a variable (`sum`) to store the factorial result.
+- Logs the entered number to the console.
+- Uses a loop to calculate the factorial of the inputted number.
+- Logs the factorial result to the console.
+- Displays an alert with the calculated factorial.
+
+### Summary:
+The webpage prompts users to enter a number, calculates its factorial using JavaScript, and displays the entered number along with the calculated factorial in the console and through an alert on the webpage. The main logic for calculating the factorial resides in the external JavaScript file "script.js."
